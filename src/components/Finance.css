@@ -1,0 +1,78 @@
+table {
+  border: 1px solid rgb(66, 66, 66);
+  margin: 50px auto;
+  cursor: default;
+}
+
+th,tr,td {
+  border: 1px solid rgb(66, 66, 66);
+  text-align: center;
+  font-size: 16px;
+  height: 31px;
+}
+
+th {
+  color: rgb(66, 66, 66);
+  white-space: nowrap;
+}
+
+table td:nth-child(2){ width: 100px; }
+table th:nth-child(3){ width: 190px; }
+
+table td:nth-child(1),
+table th:nth-child(1),
+table th:nth-child(4),
+table td:nth-child(4){ 
+  width: 35px;  
+}
+
+
+
+
+table td:nth-child(3){
+  font-style: italic;
+}
+
+table td:nth-child(4){
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(93, 93, 93);
+  user-select: none;
+}
+
+
+
+
+/* [ ADD ] */
+.addButton {
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* [ INPUT ] */
+.addEditor td{
+  padding: 0;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+/* [ FOCUS ] */
+input:focus{
+  border: 1px solid blue;
+  color: blue;
+}
+
+/* [ RESULT ] */
+#result {
+  color: gray;
+}
+
+
